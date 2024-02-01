@@ -7,7 +7,9 @@ import About from "./About";
 import user from "../data/user";
 console.log(user);
 
+//class App extends React.Component {
 function App() {
+  //render () {
   return (
     <div>
       <NavBar />
@@ -15,6 +17,7 @@ function App() {
       <About bio={user.bio} links={user.links} />
     </div>
   );
+ // }
 }
 
 export default App;
